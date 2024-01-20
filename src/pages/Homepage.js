@@ -10,22 +10,17 @@ const Homepage = () => {
         <StyledContainer>
             <Grid container spacing={0}>
                 <Grid item xs={12} md={6}>
-                    <img src={Students} alt="students" style={{ width: '100%' }} />
+                    <img src="https://img.freepik.com/free-vector/appointment-booking-with-calendar_23-2148553008.jpg?w=996&t=st=1705731286~exp=1705731886~hmac=641c30cd2db71278f51e8813e61c5a7030559245ece1a297ec253ddc90785a0e" alt="students" style={{ width: '100%' }} className='pic'/>
                 </Grid>
                 <Grid item xs={12} md={6}>
                     <StyledPaper elevation={3}>
-                        <StyledTitle>
-                            Welcome to
+                        <StyledTitle className='card'>
+                           <i className='color'>Welcome to</i> 
                             <br />
-                            School Management
-                            <br />
-                            System
+                            <i className='color'>Attendance Portal</i>
+                            
                         </StyledTitle>
-                        <StyledText>
-                            Streamline school management, class organization, and add students and faculty.
-                            Seamlessly track attendance, assess performance, and provide feedback.
-                            Access records, view marks, and communicate effortlessly.
-                        </StyledText>
+    
                         <StyledBox>
                             <StyledLink to="/choose">
                                 <LightPurpleButton variant="contained" fullWidth>
